@@ -25,11 +25,15 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="/js/mouse.js" defer></script>
     <script src="/js/index.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     <div class="wrapper">
+      <!----------------- mouse ----------------->
+      <div id="mouse-follower"></div>
+      <div id="mouse-follower-description"></div>
       <!--------------section loader---------------->
       <section id="loader">
         <!--logo-->
@@ -43,16 +47,16 @@
         <!--text horizontale-->
         <div id="loader-moving-wrapper">
           <p class="loader-moving-text moving-text-one">
-            Lorem ipsum dolor sit amet, consectetur adipisc
+            Be unique and make yourself beautiful
           </p>
           <p class="loader-moving-text moving-text-two">
-            Lorem ipsum dolor sit amet, consectetur adipisc
+            Be unique and make yourself beautiful
           </p>
           <p class="loader-moving-text moving-text-three">
-            Lorem ipsum dolor sit amet, consectetur adipisc
+            Be unique and make yourself beautiful
           </p>
           <p class="loader-moving-text moving-text-four">
-            Lorem ipsum dolor sit amet, consectetur adipisc
+            Be unique and make yourself beautiful
           </p>
         </div>
       </section>
@@ -72,7 +76,7 @@
             <div class="menu-item">
               <a
                 href="#"
-                data-img-preview="img-10.jpg"
+                data-img-preview="img-15.jpg"
                 data-text-content="Shimmer and Smokey Makeup"
                 >Shimmer and Smokey Makeup</a
               >
@@ -80,7 +84,7 @@
             <div class="menu-item">
               <a
                 href="#"
-                data-img-preview="img-9.jpg"
+                data-img-preview="img-12.jpg"
                 data-text-content="HD, Matte and Airbrush Makeup"
                 >HD, Matte and Airbrush Makeup</a
               >
@@ -96,7 +100,7 @@
             <div class="menu-item">
               <a
                 href="#"
-                data-img-preview="img-7.jpg"
+                data-img-preview="img-1.jpg"
                 data-text-content="Contact me"
                 >Contact me</a
               >
@@ -168,7 +172,7 @@
             <div class="slider-item-wrapper">
               <div class="slider-item slider-item-5">
                 <div class="slider-item-content">
-                  <h2 class="slider-item-title">Lemon and soft skin</h2>
+                  <h2 class="slider-item-title">Lemon, soft skin</h2>
                   <p class="slider-item-description">
                     Le lorem ipsum est, en imprimerie, une suite de mots sans
                     signification utilisée mise en page, le texte définitif
@@ -180,7 +184,7 @@
             <div class="slider-item-wrapper">
               <div class="slider-item slider-item-6">
                 <div class="slider-item-content">
-                  <h2 class="slider-item-title">Le lorem ipsum est</h2>
+                  <h2 class="slider-item-title">Pink Fruity</h2>
                   <p class="slider-item-description">
                     provisoire pour calibrer une mise en page, le texte
                     définitif venant
@@ -203,7 +207,9 @@
             <div class="slider-item-wrapper">
               <div class="slider-item slider-item-8">
                 <div class="slider-item-content">
-                  <h2 class="slider-item-title">Le lorem ipsum est</h2>
+                  <h2 class="slider-item-title">
+                    HD, Matte and Airbrush Makeup
+                  </h2>
                   <p class="slider-item-description">
                     Le lorem ipsum est, en imprimerie, une suite de mots sans
                     signification utilisée à titre provisoire pour calibrer une
@@ -215,7 +221,9 @@
             <div class="slider-item-wrapper">
               <div class="slider-item slider-item-9">
                 <div class="slider-item-content">
-                  <h2 class="slider-item-title">Le lorem ipsum est</h2>
+                  <h2 class="slider-item-title">
+                    HD, Matte and Airbrush Makeup
+                  </h2>
                   <p class="slider-item-description">
                     Le lorem ipsum est, en imprimerie, une suite de mots sans
                     signification utilisée à titre provisoire pour calibrer une
@@ -243,6 +251,58 @@
           </div>
           <div id="slider-navigation-next">
             <img src="/img/arrow_right.svg" alt="next" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="image-galery">
+          <div
+            class="image-galery-item-wrapper"
+            data-img-description="<div class='bubble-wraper'>
+            <div class='bubble'>Flower</div>
+            <div class='bubble'>JAN 2009</div>
+          </div>"
+          >
+            <div class="image-galery-item item1"></div>
+          </div>
+          <div
+            data-img-description="<div class='bubble-wraper'>
+                <div class='bubble'>Pink</div>
+                <div class='bubble'>JAN 2009</div>
+              </div>"
+            class="image-galery-item-wrapper"
+          >
+            <div class="image-galery-item item2"></div>
+          </div>
+          <div
+            data-img-description="<div class='bubble-wraper'>
+            <div class='bubble'>Red</div>
+            <div class='bubble'>JAN 2009</div>
+          </div>"
+            class="image-galery-item-wrapper grid-row-span-2"
+          >
+            <div class="image-galery-item item3"></div>
+          </div>
+          <div
+            data-img-description="<div class='bubble-wraper'>
+            <div class='bubble'>Afro</div>
+            <div class='bubble'>JAN 2009</div>
+          </div>"
+            class="image-galery-item-wrapper"
+          >
+            <div class="image-galery-item item4"></div>
+          </div>
+          <div
+            data-img-description="<div class='bubble-wraper'>
+            <div class='bubble'>Smilly</div>
+            <div class='bubble'>JAN 2009</div>
+          </div>"
+            class="image-galery-item-wrapper"
+          >
+            <div class="image-galery-item item5"></div>
+          </div>
+          <div id="galery-back-button">
+            <img src="/img/arrow_left.svg" alt="previous" />
           </div>
         </div>
       </section>
