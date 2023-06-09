@@ -335,11 +335,11 @@ $(".menu-item a")
     }
   });
 
-//============================================================
+//==========================grid image==================================
 $(".slider-item").click(() => {
   $(".image-galery").css({ display: "grid" });
 
-  //show description to image galery
+  //afficher la description de l'image lorsque la souris est sur l'image
   $(".image-galery-item-wrapper").each((i, elem) => {
     elem.addEventListener("mouseenter", setPictureDescription);
     elem.addEventListener("mouseleave", removePictureDescription);
